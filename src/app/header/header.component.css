@@ -1,0 +1,14 @@
+ul li {
+  /* display: inline-block; */
+  margin: 10px 20px;
+  font-weight: 600;
+}
+ul li a:hover {
+  color: orange;
+  /* background: black; */
+  /* border-radius: 10px; */
+}
+.active {
+  background-color: #fa952e;
+  border-radius: 20%;
+}

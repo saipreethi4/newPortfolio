@@ -1,0 +1,15 @@
+i {
+  color: #000;
+}
+i:hover {
+  color: orange;
+}
+/* a {
+  text-decoration: none;
+} */
+/* .text-black :hover {
+  color: orange;
+} */
+a {
+  font-family: sans-serif;
+}

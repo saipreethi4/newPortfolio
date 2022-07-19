@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.pos {
+  min-height: 100vh;
+  min-width: 100vw;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+
+  overflow: hidden;
+}
+.land {
+  margin-left: 12%;
+  margin-top: 17%;
+  flex: 1 1 500px;
+  min-width: 50%;
+}
+.land h1 {
+  font-size: 50px;
+  color: #212121;
+  margin-bottom: 20px;
+}
+span {
+  color: orange;
+}
+.land p {
+  color: #555;
+  line-height: 22px;
+}
+.land a {
+  background: #212121;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+.land a:hover {
+  background: orange;
+}
+
+.images {
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+  min-width: 50%;
+}
+.images img {
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  translate: bottom 1s, left 1s;
+  transition-duration: 1s;
+}
+/* .images img .girl .shape {
+  flex: 1 1 20%;
+} */
+.images:hover .shape {
+  bottom: 40px;
+  transition-duration: 1s;
+}
+.images:hover .girl {
+  left: 45%;
+  transition-duration: 1s;
+}
+h6 {
+  font-family: cursive;
+  font-weight: 600;
+}
